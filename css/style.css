@@ -30,9 +30,7 @@ h5{
 .h3Nosotros h3{
     background-color: gray;
 }
-.h3Nosotros p{
 
-}
 footer{
     background-color: #888881;
 }
@@ -45,5 +43,20 @@ footer div{
     text-align: center;
 }
 p{
+    font-family: 'Fira Sans', sans-serif;
+}
+nav{
+    background-color: #F1E705;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+}
+footer div h5 a{
+    text-decoration: none;
+    color: #151414;
+    text-align: center;
     font-family: 'Fira Sans', sans-serif;
 }
