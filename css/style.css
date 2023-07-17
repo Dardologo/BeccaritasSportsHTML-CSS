@@ -16,6 +16,7 @@
 h2{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
+    color: white;
 }
 h3{
     text-align: center;
@@ -27,7 +28,7 @@ h5{
     font-family: 'Permanent Marker', cursive;
 }
 
-.h3Nosotros h3{
+main h3{
     background-color: gray;
 }
 
@@ -59,4 +60,58 @@ footer div h5 a{
     color: #151414;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
+}
+
+.imagenFondoHome{
+    background-image: url("../assets/messiBeccaritas.PNG"); 
+    width: 100%;
+    height: 12.5rem;
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 70%;
+ 
+
+}
+.imagenFondoDeportes{
+    background-image: url("../assets/deportes.jpg");
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
+    background-size: 70%;
+
+}
+.imagenAccesorios{
+    background-image: url("../assets/accesorios.png");
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
+    background-size: 70%;
+}
+.imagenOfertas{
+    background-image: url("../assets/ofertas.jpg");
+    background-size: 70%;
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
+}
+.imagenOutlet{
+    background-image: url("../assets/outlet.jpg");
+    background-size: 70%;
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
+}
+.imagenNosotros{
+    background-image: url("../assets/nosotros.jpg");
+    background-size: 70%;
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
+}
+.imagenContacto{
+    background-image: url("../assets/contactanos.jpg");
+    background-size: 70%;
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
 }
