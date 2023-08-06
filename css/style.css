@@ -70,6 +70,7 @@ main h3{
 }
 
 footer{
+    margin-top: 10rem;
     background-color: #888881;
 }
 footer div{
@@ -192,6 +193,61 @@ button{
 .btn-custom{
     background-color: #2C2E43;
     color: white;
+}
+
+@media(max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+       
+    }
+    header section{
+        padding-left: 2.1875rem;
+        padding-bottom: .625rem;
+    }
+    header nav{
+        padding-left: 0rem;
+    }
+    header nav ul{
+        gap: .9375rem;
+       
+    }
+}
+@media(max-width: 480px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    header nav{
+       
+        padding-left: 0rem;
+    }
+    header nav ul{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+       
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .625rem;
+    }
+    footer section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .625rem;
+    }
+    .container-footer{
+        gap: .625rem;
+    }
 }
 
 
