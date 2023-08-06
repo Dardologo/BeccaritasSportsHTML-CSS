@@ -31,11 +31,30 @@ header nav {
     align-items: center;
     padding-left: 6.25rem;
 }
-h2{
-    font-family: 'Permanent Marker', cursive;
-    text-align: center;
-    color: white;
+.cabecera {
+    height: 2.5rem;
+    background-color: rgb(222, 222, 222);
 }
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    color: #151414;
+    position: relative;
+    margin-bottom: 1.25rem;
+  /* text-decoration: underline yellow;*/
+}
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: -0.3125rem; /* Controla la separación entre el texto y la línea */
+    left: 50%; /* Centra la línea debajo del texto */
+    width: 200px; /* Ajusta la longitud de la línea */
+    height: 4px; /* Ajusta el grosor de la línea */
+    background-color: yellow; /* Color de la línea */
+    transform: translateX(-50%); /* Centra horizontalmente la línea */
+}
+
+
 h3{
     text-align: center;
     text-decoration: underline; 
@@ -61,9 +80,7 @@ footer div{
     color: white;
     text-align: center;
 }
-p{
-    font-family: 'Fira Sans', sans-serif;
-}
+
 
 
 nav ul li a{
@@ -164,8 +181,17 @@ footer div h5 a{
 
 .container-footer{
     display: flex ;
-    justify-content: space-around;
+    gap: 21.875rem;
+    align-items: center;
     
+}
+button{
+    background-color: #2C2E43;
+    color: white;
+}
+.btn-custom{
+    background-color: #2C2E43;
+    color: white;
 }
 
 
