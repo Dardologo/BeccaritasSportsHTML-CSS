@@ -184,6 +184,7 @@ footer div h5 a{
     display: flex ;
     gap: 21.875rem;
     align-items: center;
+    justify-content: space-evenly;
     
 }
 button{
