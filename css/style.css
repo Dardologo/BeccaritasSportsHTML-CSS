@@ -252,3 +252,21 @@ button{
 }
 
 
+.mapa-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.nosotros-section{
+    padding-left: .3125rem;
+    padding-right: .3125rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+main div section p{
+    padding: .3125rem;
+    text-align: center;
+}
