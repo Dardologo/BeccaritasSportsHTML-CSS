@@ -327,10 +327,7 @@ main div section p{
 
 
 
-/*Trabajamos de desktop a mobile y max-width declara que trabajamos con codigo de desktop y va a mobile*/
-@media(max-width: 1024px){
 
-}
 
 @media(max-width: 768px){
 
