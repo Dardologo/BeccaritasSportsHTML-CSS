@@ -277,3 +277,82 @@ main div section p{
     height: 100%;
 
 }
+
+/*Grid*/
+.galeria{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 25%);/*Se van a adaptar automaticamente al tamaño del elemento */
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "div1 div2 div3"
+    "div1 div2 div3"
+    "div1 div4 div4"
+    
+    ;
+    justify-content: center;
+    gap: .625rem;
+
+}
+.galeria div {
+   width: 100%;
+   height: 100%;
+  
+}
+.galeria div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*para que no se deforme la imagen */
+    border: 2px solid #151414;
+    
+}
+.div1 {
+    grid-area: div1;
+    
+    
+}
+.div2 {
+    grid-area: div2;
+}
+.div3 {
+    grid-area: div3;
+}
+.div4 {
+   grid-area: div4; 
+   
+}
+.div4 img{
+    object-position: bottom;
+}
+
+
+
+/*Trabajamos de desktop a mobile y max-width declara que trabajamos con codigo de desktop y va a mobile*/
+@media(max-width: 1024px){
+
+}
+
+@media(max-width: 768px){
+
+    .galeria{
+        grid-template-columns: repeat(2, 25%);
+        grid-template-rows: repeat(2, 300px);
+        grid-template-areas: 
+        "div1 div2"
+        "div3 div4"
+        ;
+    }
+}
+
+@media (max-width:480px ){
+
+    .galeria{
+        grid-template-columns: 50%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "div1"
+        "div2"
+        "div3"
+        "div4";
+    }
+}
