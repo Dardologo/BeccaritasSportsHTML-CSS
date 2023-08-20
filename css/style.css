@@ -1,6 +1,46 @@
+@charset "UTF-8";
 /*Variables, mixins y funciones*/
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Permanent+Marker&display=swap");
 /* todo lo correspondiente al codigo*/
+h2 {
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  color: #151414;
+  position: relative;
+  margin-bottom: 1.25rem;
+  /* text-decoration: underline yellow;*/ }
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3125rem;
+  /* Controla la separación entre el texto y la línea */
+  left: 50%;
+  /* Centra la línea debajo del texto */
+  width: 200px;
+  /* Ajusta la longitud de la línea */
+  height: 4px;
+  /* Ajusta el grosor de la línea */
+  background-color: yellow;
+  /* Color de la línea */
+  transform: translateX(-50%);
+  /* Centra horizontalmente la línea */ }
+
+main h3 {
+  background-color: gray;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Permanent Marker', cursive; }
+
+main p {
+  text-align: center; }
+
+.mapa-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.5rem; }
+
 h5 {
   text-align: center;
   font-family: 'Permanent Marker', cursive; }
