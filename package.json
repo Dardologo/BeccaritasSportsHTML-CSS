@@ -1,0 +1,17 @@
+{
+  "name": "beccaritas",
+  "version": "1.0.0",
+  "description": "[![Beccairtas](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb0M09PKkAiRHxnuK1uEmjDJpgQv8o_9OyfSJcSDY0irE52vooIes1rVXUwY-vUgUw&usqp=CAU \"Beccairtas\")](http://https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb0M09PKkAiRHxnuK1uEmjDJpgQv8o_9OyfSJcSDY0irE52vooIes1rVXUwY-vUgUw&usqp=CAU \"Beccairtas\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss ./scss/style.scss ./css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}

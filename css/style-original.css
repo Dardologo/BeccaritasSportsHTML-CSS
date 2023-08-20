@@ -1,0 +1,355 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    ***********TIPOGRAFIAS***********
+    
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Fira Sans', sans-serif;
+*/
+header{
+    background-color:  #F1E705;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3.125rem;
+}
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6.25rem;
+}
+.cabecera {
+    height: 2.5rem;
+    background-color: rgb(222, 222, 222);
+}
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    color: #151414;
+    position: relative;
+    margin-bottom: 1.25rem;
+  /* text-decoration: underline yellow;*/
+}
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: -0.3125rem; /* Controla la separación entre el texto y la línea */
+    left: 50%; /* Centra la línea debajo del texto */
+    width: 200px; /* Ajusta la longitud de la línea */
+    height: 4px; /* Ajusta el grosor de la línea */
+    background-color: yellow; /* Color de la línea */
+    transform: translateX(-50%); /* Centra horizontalmente la línea */
+}
+
+
+h3{
+    text-align: center;
+    text-decoration: underline; 
+    font-family: 'Permanent Marker', cursive;
+}
+h5{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+main h3{
+    background-color: gray;
+}
+
+footer{
+    margin-top: 10rem;
+    background-color: #888881;
+}
+footer div{
+    color: #151414 ;
+}
+.copyR p{
+    background-color: #2C2E43;
+    color: white;
+    text-align: center;
+}
+
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+}
+footer div h5 a{
+    text-decoration: none;
+    color: #151414;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.imagenFondoHome{
+    background-image: url("../assets/messiBeccaritas.PNG"); 
+    width: 100%;
+    height: 31.25rem;
+    background-repeat: no-repeat;
+    background-position: center  ;
+    background-size: 70%;
+ 
+
+}
+.imagenFondoDeportes{
+    background-image: url("../assets/deportes.jpg");
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-size: 70%;
+
+}
+.imagenAccesorios{
+    background-image: url("../assets/accesorios.png");
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
+    background-size: 70%;
+}
+.imagenOfertas{
+    background-image: url("../assets/ofertas.jpg");
+    background-size: 70%;
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
+}
+.imagenOutlet{
+    background-image: url("../assets/outlet.jpg");
+    background-size: 70%;
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
+}
+.imagenNosotros{
+    background-image: url("../assets/nosotros.jpg");
+    background-size: 70%;
+    width:100%;
+    height: 31.25rem;
+    background-position: center;
+}
+.imagenContacto{
+    background-image: url("../assets/contactanos.jpg");
+    background-size: 70%;
+    width:100%;
+    height: 31.25rem;
+    background-position: top;
+    background-size: cover;
+}
+
+.card{
+    width: 15.625rem;
+    height: 15.625rem;
+    border: 1px solid;
+    background-color: #F1E705;
+    box-shadow: .125rem .125rem .3125rem;
+    border-radius: 5px;
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    height: 18.75rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-img{
+    width: 100%;
+    height: 12.5rem;
+    overflow: hidden;
+}
+.card-img img{
+    width: 100%;
+    height: 12.5rem;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: .625rem .625rem 0rem 0rem;
+}
+
+.container-footer{
+    display: flex ;
+    gap: 21.875rem;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+button{
+    background-color: #2C2E43;
+    color: white;
+}
+.btn-custom{
+    background-color: #2C2E43;
+    color: white;
+}
+
+@media(max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+       
+    }
+    header section{
+        padding-left: 2.1875rem;
+        padding-bottom: .625rem;
+    }
+    header nav{
+        padding-left: 0rem;
+    }
+    header nav ul{
+        gap: .9375rem;
+       
+    }
+}
+@media(max-width: 480px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    header nav{
+       
+        padding-left: 0rem;
+    }
+    header nav ul{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+       
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .625rem;
+    }
+    footer section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .625rem;
+    }
+    .container-footer{
+        gap: .625rem;
+    }
+}
+
+
+.mapa-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.nosotros-section{
+    padding-left: .3125rem;
+    padding-right: .3125rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+main div section p{
+    padding: .3125rem;
+    text-align: center;
+}
+.img-accesorios{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*Grid*/
+.galeria{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 25%);/*Se van a adaptar automaticamente al tamaño del elemento */
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "div1 div2 div3"
+    "div1 div2 div3"
+    "div1 div4 div4"
+    
+    ;
+    justify-content: center;
+    gap: .625rem;
+
+}
+.galeria div {
+   width: 100%;
+   height: 100%;
+  
+}
+.galeria div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*para que no se deforme la imagen */
+    border: 2px solid #151414;
+    
+}
+.div1 {
+    grid-area: div1;
+    
+    
+}
+.div2 {
+    grid-area: div2;
+}
+.div3 {
+    grid-area: div3;
+}
+.div4 {
+   grid-area: div4; 
+   
+}
+.div4 img{
+    object-position: bottom;
+}
+
+
+
+
+
+@media(max-width: 768px){
+
+    .galeria{
+        grid-template-columns: repeat(2, 25%);
+        grid-template-rows: repeat(2, 300px);
+        grid-template-areas: 
+        "div1 div2"
+        "div3 div4"
+        ;
+    }
+}
+
+@media (max-width:480px ){
+
+    .galeria{
+        grid-template-columns: 50%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "div1"
+        "div2"
+        "div3"
+        "div4";
+    }
+}
