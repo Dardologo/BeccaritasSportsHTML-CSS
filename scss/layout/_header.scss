@@ -1,0 +1,25 @@
+header{
+    background-color: $colorBeccaritas;
+    display: flex;
+    flex-direction: row;
+    nav{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 6.25rem;
+        ul{
+            display: flex;
+            list-style-type: none;
+            gap: 3.125rem;
+            li{
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-family: 'Permanent Marker', cursive;
+                }
+            }
+        }
+    }
+ 
+
+}

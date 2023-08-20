@@ -5,6 +5,24 @@ h5 {
   text-align: center;
   font-family: 'Permanent Marker', cursive; }
 
+header {
+  background-color: #F1E705;
+  display: flex;
+  flex-direction: row; }
+  header nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6.25rem; }
+    header nav ul {
+      display: flex;
+      list-style-type: none;
+      gap: 3.125rem; }
+      header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Permanent Marker', cursive; }
+
 footer {
   margin-top: 10rem; }
   footer div {
