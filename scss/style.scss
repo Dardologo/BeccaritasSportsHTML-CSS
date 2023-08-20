@@ -1,5 +1,9 @@
 /*Variables, mixins y funciones*/
+//@import "./base/typografia";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Permanent+Marker&display=swap');
 
+@import "./utilities/variables";
 /* todo lo correspondiente al codigo*/
-
+@import "./base/generales";
+@import "./layout/footer";
 /*Todo lo correspondiente al media query*/

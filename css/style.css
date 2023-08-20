@@ -1,3 +1,30 @@
 /*Variables, mixins y funciones*/
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Permanent+Marker&display=swap");
 /* todo lo correspondiente al codigo*/
+h5 {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive; }
+
+footer {
+  margin-top: 10rem; }
+  footer div {
+    color: #151414; }
+    footer div h5 a {
+      text-decoration: none;
+      color: black;
+      text-align: center;
+      font-family: "Fira Sans", sans-serif; }
+
+.copyR p {
+  background-color: #2C2E43;
+  color: white;
+  text-align: center; }
+
+.container-footer {
+  background-color: #888881;
+  display: flex;
+  gap: 21.875rem;
+  align-items: center;
+  justify-content: space-evenly; }
+
 /*Todo lo correspondiente al media query*/
