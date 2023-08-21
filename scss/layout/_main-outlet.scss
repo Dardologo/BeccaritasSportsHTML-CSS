@@ -1,0 +1,41 @@
+.galeria{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 25%);/*Se van a adaptar automaticamente al tamaño del elemento */
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: 
+    "div1 div2 div3"
+    "div1 div2 div3"
+    "div1 div4 div4"
+    
+    ;
+    justify-content: center;
+    gap: .625rem;
+    div{
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;/*para que no se deforme la imagen */
+            border: 2px solid #151414;
+        }
+    }
+}
+.div1 {
+    grid-area: div1;
+    
+    
+}
+.div2 {
+    grid-area: div2;
+}
+.div3 {
+    grid-area: div3;
+}
+.div4 {
+   grid-area: div4; 
+   img{
+    object-position: bottom;
+   }
+}
