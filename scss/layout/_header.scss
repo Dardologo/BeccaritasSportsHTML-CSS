@@ -3,9 +3,7 @@ header{
     display: flex;
     flex-direction: row;
     nav{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        @include flex (none, flex-start,center, none);
         padding-left: 6.25rem;
         ul{
             display: flex;

@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Permanent+Marker&display=swap");
 /* todo lo correspondiente al codigo*/
 h2 {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   text-align: center;
   color: #151414;
   position: relative;
@@ -21,13 +21,12 @@ h2::after {
   /* Ajusta la longitud de la línea */
   height: 4px;
   /* Ajusta el grosor de la línea */
-  background-color: yellow;
+  background-color: #F1E705;
   /* Color de la línea */
   transform: translateX(-50%);
   /* Centra horizontalmente la línea */ }
 
 main h3 {
-  background-color: gray;
   text-align: center;
   text-decoration: underline;
   font-family: 'Permanent Marker', cursive; }
@@ -40,9 +39,11 @@ h3 {
 
 .mapa-contenedor {
   display: flex;
+  flex-direction: none;
   justify-content: center;
   align-items: center;
-  padding-top: 2.5rem; }
+  gap: none;
+  padding-top: 3.125rem; }
 
 h5 {
   text-align: center;
@@ -54,8 +55,10 @@ header {
   flex-direction: row; }
   header nav {
     display: flex;
+    flex-direction: none;
     justify-content: flex-start;
     align-items: center;
+    gap: none;
     padding-left: 6.25rem; }
     header nav ul {
       display: flex;
@@ -123,8 +126,10 @@ footer {
 .container-footer {
   background-color: #888881;
   display: flex;
+  flex-direction: none;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-evenly; }
+  gap: none; }
 
 .card {
   width: 15.625rem;
@@ -163,7 +168,9 @@ button {
 .preguntasFrecuentes {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  justify-content: none;
+  align-items: center;
+  gap: none; }
 
 /*Todo lo correspondiente al media query*/
 @media (max-width: 320px) {
@@ -175,7 +182,8 @@ button {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-content: center;
+      align-items: center;
+      gap: 1.25rem;
       padding: 10px, 10px, 10px, 10px; }
   .container-footer {
     display: flex;
@@ -192,15 +200,22 @@ button {
 
 @media (max-width: 480px) {
   header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: none;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
     header nav {
       padding-left: 0rem; }
       header nav ul {
+        display: flex;
         flex-direction: column;
+        justify-content: none;
         align-items: center;
-        justify-content: center; }
+        gap: none; }
   .container-footer {
     display: flex;
     flex-direction: column; }
@@ -220,9 +235,11 @@ button {
 
 @media (max-width: 768px) {
   header {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center; }
+    gap: none; }
     header section {
       padding-left: 2.1875rem;
       padding-bottom: .625rem; }

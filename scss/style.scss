@@ -1,7 +1,7 @@
 /*Variables, mixins y funciones*/
 //@import "./base/typografia";
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Permanent+Marker&display=swap');
-
+@import "./utilities/mixin";
 @import "./utilities/variables";
 /* todo lo correspondiente al codigo*/
 @import "./base/generales";
@@ -12,7 +12,6 @@
 @import "./componentes/cards";
 @import "./componentes/botones";
 @import "./layout/nosotros";
-
 /*Todo lo correspondiente al media query*/
 @import "./layout/mediaQ/media320";
 @import "./layout/mediaQ/media480";

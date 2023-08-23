@@ -5,10 +5,8 @@
         justify-content: center;
         nav{
             ul{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-content: center;
+                @include flex(column, center, center, 1.25rem);
+                
                 padding: 10px, 10px, 10px, 10px;
             }
         }

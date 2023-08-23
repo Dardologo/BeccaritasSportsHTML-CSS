@@ -1,6 +1,5 @@
 footer{
-    margin-top: 10rem;
-    
+    margin-top: 10rem; 
     div{
         color: $colorDivFooter;
         h5{
@@ -8,11 +7,10 @@ footer{
                 text-decoration: none;
                 color: $anclasFooter;
                 text-align: center;
-                font-family: $letraFooter;
+                font-family: $letraNormal;
             }
         }
-    }
-    
+    }   
 }
 .copyR{
     p{
@@ -21,13 +19,8 @@ footer{
         text-align: center;
     }
 }
-
 .container-footer{
- 
     background-color: $fondoFooter;
-    display: flex ;
+    @include flex(none, space-evenly, center, none);
     // gap: 21.875rem;
-    align-items: center;
-    justify-content: space-evenly;
-    
 }
