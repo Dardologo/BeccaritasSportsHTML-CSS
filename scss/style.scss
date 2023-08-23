@@ -11,6 +11,10 @@
 @import "./layout/footer";
 @import "./componentes/cards";
 @import "./componentes/botones";
-@import "./layout/nosotros"
+@import "./layout/nosotros";
 
 /*Todo lo correspondiente al media query*/
+@import "./layout/mediaQ/media320";
+@import "./layout/mediaQ/media480";
+@import "./layout/mediaQ/media768";
+@import "./layout/mediaQ/media1024";

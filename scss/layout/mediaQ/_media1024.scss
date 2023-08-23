@@ -1,0 +1,12 @@
+@media(max-width:1024px){
+    header{
+       display: flex;
+      
+       nav{
+        margin-right: .625rem;
+        li{
+            font-size: .9375rem;
+        }
+       }
+    }
+}
