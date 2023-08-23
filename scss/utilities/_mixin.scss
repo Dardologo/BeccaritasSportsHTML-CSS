@@ -5,3 +5,10 @@
     align-items: $align;
     gap: $gap;
 }
+
+@mixin texto($tamanio, $posTexto, $izq, $der){
+    font-size:$tamanio ;
+    text-align: $posTexto;
+    margin-left: $izq;
+    margin-right: $der;
+}
