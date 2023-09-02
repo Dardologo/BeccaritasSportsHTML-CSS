@@ -1,7 +1,9 @@
 header{
-    background-color: $colorBeccaritas;
-    display: flex;
-    flex-direction: row;
+    .section-header{
+        background-color: $colorBeccaritas;
+        display: flex;
+        flex-direction: row;
+    }
     nav{
         @include flex (none, flex-start,center, none);
         padding-left: 6.25rem;
