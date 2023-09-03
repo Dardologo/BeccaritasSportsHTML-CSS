@@ -5,6 +5,18 @@ button{
 .btn-custom{
     background-color: #2C2E43;
     color: white;
+    transition:none;
+    a{
+            text-decoration: none;
+            color: white;
+            font-family: $letraNormal;
+            font-size: 1.25rem;
+    }
+    &:hover {
+        background-color: $fondoFooter;
+        transition: background-color 0.5s linear, color 0.5s linear; 
+    }
+
 }
 .btn-buscador{
     background-color: $colorBeccaritas;
