@@ -139,7 +139,20 @@ footer {
   box-shadow: .125rem .125rem .3125rem;
   border-radius: 5px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  position: relative;
+  transition: width 0.5s, height 0.5s;
+  transition: width 2s, height 2s; }
+  .card:hover {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin-left: -1rem;
+    /* Reduce el margen izquierdo para dar espacio */
+    margin-right: -1rem;
+    /* Reduce el margen derecho para dar espacio */
+    z-index: 1;
+    /* Asegura que la tarjeta agrandada esté por encima de las otras */
+    transform: scale(1.2); }
   .card h2:hover {
     transform: scale(1.2);
     transition: 0.5s; }
