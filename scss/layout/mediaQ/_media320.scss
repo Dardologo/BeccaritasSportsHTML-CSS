@@ -1,13 +1,10 @@
 @media(max-width:320px){
     .section-header{
-        @include flex(column, center, center, 1.25rem);
-        .logo {
-            order: 1; /* Cambia el orden del logotipo */
-        }
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       justify-content: center;
 
-        nav {
-            order: 2; /* Cambia el orden de la navegación */
-        }
     
     }
     header{

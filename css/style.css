@@ -51,8 +51,8 @@ h5 {
 
 header .section-header {
   background-color: #F1E705;
-  display: flex;
-  flex-direction: row; }
+  padding-left: 0;
+  display: flex; }
 
 header nav {
   display: flex;
@@ -290,15 +290,8 @@ button {
   .section-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.25rem; }
-    .section-header .logo {
-      order: 1;
-      /* Cambia el orden del logotipo */ }
-    .section-header nav {
-      order: 2;
-      /* Cambia el orden de la navegación */ }
+    text-align: center;
+    justify-content: center; }
   header {
     display: flex;
     flex-direction: column;
@@ -358,6 +351,9 @@ button {
         justify-content: none;
         align-items: center;
         gap: none; }
+  .section-header {
+    display: flex;
+    flex-direction: column; }
   .container-footer {
     display: flex;
     flex-direction: column; }
@@ -398,8 +394,7 @@ button {
     align-items: center;
     gap: none; }
     header section {
-      padding-left: 2.1875rem;
-      padding-bottom: .625rem; }
+      text-align: center; }
     header nav {
       padding-left: 0rem; }
       header nav ul {

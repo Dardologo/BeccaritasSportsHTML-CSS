@@ -1,10 +1,11 @@
 @media(max-width: 768px){
     header{
         @include flex(column, center, center, none);
-     
+
         section{
-            padding-left: 2.1875rem;
-            padding-bottom: .625rem;
+            // padding-left: 2.1875rem;
+            // padding-bottom: .625rem;
+            text-align: center;
         }
         nav{
             padding-left: 0rem;
@@ -16,7 +17,7 @@
     .galeria{
         grid-template-columns: repeat(2, 25%);
         grid-template-rows: repeat(2, 300px);
-        grid-template-areas: 
+        grid-template-areas:
         "div1 div2"
         "div3 div4"
         ;
@@ -30,10 +31,10 @@
         flex-direction: column;
     }
     .nosotros-section{
-        section{   
+        section{
             p{
                 @include texto(.9375rem, center,.625rem, .625rem );
-            
+
             }
         }
         h3{
@@ -41,6 +42,6 @@
         }
        }
        h4{
-        @include texto(1.25rem, center,.625rem, .625rem ); 
+        @include texto(1.25rem, center,.625rem, .625rem );
     }
 }

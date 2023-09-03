@@ -14,7 +14,10 @@
             
         }
     }
-   
+   .section-header{
+    display: flex;
+    flex-direction: column;
+   }
     .container-footer{
       display: flex;
       flex-direction: column;
