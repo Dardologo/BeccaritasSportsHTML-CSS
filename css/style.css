@@ -76,6 +76,14 @@ header nav {
 main section h2 {
   text-align: center; }
 
+.img-ofertas {
+  width: 100%;
+  height: 25rem;
+  background-image: url(../../assets/ofertass.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
 .galeria {
   display: grid;
   width: 100%;
@@ -131,6 +139,14 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   gap: none; }
+
+.titulo-separador {
+  height: 3.125rem;
+  background-color: #F1E705;
+  text-align: center;
+  margin-left: .625rem;
+  margin-right: .625rem;
+  font-size: 2.8125rem; }
 
 .card {
   width: 15.625rem;
@@ -214,6 +230,13 @@ button {
   justify-content: none;
   align-items: center;
   gap: none; }
+
+.img-nosotros {
+  padding-left: .625rem;
+  padding-right: 1.25rem;
+  background-image: linear-gradient(to bottom, #f1e705, #dbd63b, #c6c453, #b3b264, #a0a072, #9ca181, #9ca28f, #9ea19b, #afb4af, #c1c8c5, #d3dcda, #e7f0f0); }
+  .img-nosotros section {
+    border: .125rem solid; }
 
 .container-carousel {
   width: 100%;
