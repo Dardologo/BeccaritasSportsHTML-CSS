@@ -117,6 +117,25 @@ main section h2 {
   .div4 img {
     object-position: bottom; }
 
+.video {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3.125rem;
+  background-color: #F1E705;
+  margin-bottom: 1.25rem;
+  background-image: url("../../assets/nosotros-caritas.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .video video {
+    border: 2px solid #000; }
+
+.p-outlet {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Permanent Marker", cursive; }
+
 footer {
   margin-top: 10rem; }
   footer div {
@@ -223,6 +242,25 @@ button {
   color: white;
   border-color: black;
   border-radius: .3125rem; }
+
+.btn-wsp {
+  position: fixed;
+  width: 3.4375rem;
+  height: 3.4375rem;
+  line-height: 55px;
+  bottom: 1.875rem;
+  right: 1.875rem;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 3.125rem;
+  text-align: center;
+  font-size: 1.875rem;
+  box-shadow: 0px 0.0625rem 0.625rem rgba(0, 0, 0, 0.3);
+  z-index: 100; }
+  .btn-wsp:hover {
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff; }
 
 .preguntasFrecuentes {
   display: flex;
