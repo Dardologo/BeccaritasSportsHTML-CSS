@@ -1,8 +1,19 @@
 @media(max-width:320px){
+    .section-header{
+        @include flex(column, center, center, 1.25rem);
+        .logo {
+            order: 1; /* Cambia el orden del logotipo */
+        }
+
+        nav {
+            order: 2; /* Cambia el orden de la navegación */
+        }
+    
+    }
     header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flex(column, center, center,0);
+  
+
         nav{
             ul{
                 @include flex(column, center, center, 1.25rem);

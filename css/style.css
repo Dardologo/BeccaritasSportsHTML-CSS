@@ -287,10 +287,24 @@ button {
 
 /*Todo lo correspondiente al media query*/
 @media (max-width: 320px) {
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem; }
+    .section-header .logo {
+      order: 1;
+      /* Cambia el orden del logotipo */ }
+    .section-header nav {
+      order: 2;
+      /* Cambia el orden de la navegación */ }
   header {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center;
+    gap: 0; }
     header nav ul {
       display: flex;
       flex-direction: column;
@@ -419,7 +433,11 @@ button {
 
 @media (max-width: 1024px) {
   header {
-    display: flex; }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0; }
     header nav {
       margin-right: .625rem; }
       header nav li {

@@ -1,6 +1,8 @@
 @media(max-width:1024px){
     header{
-       display: flex;
+        @include flex(column, center, center,0);
+       
+
       
        nav{
         margin-right: .625rem;
