@@ -51,8 +51,11 @@ h5 {
 
 header .section-header {
   background-color: #F1E705;
-  padding-left: 0;
-  display: flex; }
+  display: flex;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 header nav {
   display: flex;

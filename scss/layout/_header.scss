@@ -1,8 +1,11 @@
 header{
     .section-header{
         background-color: $colorBeccaritas;
-        padding-left: 0;
         display: flex;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
     nav{
