@@ -1,6 +1,6 @@
 @media(max-width:1024px){
     header{
-        @include flex(column, center, center,0);
+        @include flex(column, none, center,0);
        
 
       
